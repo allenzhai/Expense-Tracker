@@ -29,7 +29,7 @@ const SetBudgetModal = props => {
                     </h2>
                 </div>
                 <div className="modal-body"  style={{display: "flex", justifyContent: "space-between"}}>
-                    <Input onBlur={(e) => setBudget(Number(e.target.value))} placeholder="Expense"></Input>
+                    <Input onBlur={(e) => setBudget(Number(e.target.value))} placeholder="Budget"></Input>
                     <div>
                         <Button className="button" onClick={finailizeBudget}>Set</Button>
                         <Button className="button" onClick={props.closeModal}>Cancel</Button>
